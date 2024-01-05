@@ -34,3 +34,16 @@
 .btn:active {
   transform: translate(3px, 3px);
 }
+
+.imgContainer {
+  margin-top: 20px;
+  display: flex;
+  gap: 0;
+}
+.img{
+  max-width: 500px;
+}
+.img:target{
+  max-width: none;
+  width: 100%;
+}
